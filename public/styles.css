@@ -1,0 +1,88 @@
+body{
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	background-color: grey;
+	color: #00a0a0;
+	font-weight: bold;
+}
+
+a{
+	color: #76c1d4;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+ul {
+	text-decoration: none;
+	list-style-type: none;
+	font-size: 25px;
+	text-align: left;
+}
+
+form.welcome h1 {
+	margin-left: 0;
+}
+
+form {
+	display: flex;
+	padding: 10px;
+	padding-left: 35px;
+	flex-direction:  flex-start;
+}
+
+form.welcome {
+	display: flex;
+	padding: 10px;
+	padding-left: 35px;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+form.welcome button {
+	margin-top: 5px;
+	width: 15vh;
+}
+
+input{
+	border: 1px solid gray;
+	border-radius: 5px;
+	padding: 3px;
+}
+
+button{
+	margin-left: 3px;
+	color: white;
+	background-color: #1E90FF;
+	border-radius: 5px;
+	border:none;
+	font-weight: bold;
+	padding: 5px;
+	cursor: pointer;
+}
+.page{
+	width: 50%;
+	text-align: center;
+	background-color: white; 
+}
+.page h1{
+	text-align: center;
+	font-size: 35px;
+}
+
+.page h2{
+	margin-left: 38px;
+	text-align: left;
+	font-size: 35px;
+}
+
+.page p{
+	margin-left: 35%;
+	width: 200px;
+	border-radius: 5px;
+	font-size: 20px;
+	color: white;
+	background-color: #1E90FF;
+}
+

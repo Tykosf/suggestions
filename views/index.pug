@@ -1,0 +1,10 @@
+extends layout
+block main
+	if username 
+		h1 Привіт #{username}!
+		a(href = "/suggestions") Показати список пропозицій 	
+	else
+		form(method = "POST").welcome
+			h1 Вхід
+			input(type = "text" name = "username" placeholder="Enter username")
+			button(type = "submit") Ввійти
